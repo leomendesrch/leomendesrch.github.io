@@ -28,7 +28,7 @@ function AboutMe(){
                     </MyProfileInfo>
                     <MyProfileContactsContainer className="myButtons">
                         <MyProfileContacts 
-                        href="https://www.linkedin.com/in/leonardo-mendes-b43120257/" 
+                        href="https://docs.google.com/document/d/1LFC5KF0JwsGJesja3zdAWM7LMsaNFyQq0413yyCkEl4/edit?usp=sharing" 
                         backgroundColorBottom='#fdaa2d' 
                         backgroundColorTop='#ff9900'
                         target="_blank"
