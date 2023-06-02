@@ -46,6 +46,7 @@ export const Ancora = styled.a`
     transition: 0.3s;
     position: relative;
     letter-spacing: 0.07rem;
+    color: black;
     &:after{
         position: absolute;
         content: ' ';
