@@ -20,7 +20,7 @@ export const FooterText = styled.p`
 export const Ancor = styled.a`
     text-decoration: none;
     cursor: pointer;
-
+    color: #666666;
     &:visited{
         color: #666666;
     }
