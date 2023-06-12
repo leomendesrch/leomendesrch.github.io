@@ -4,6 +4,7 @@ import LogoIcon from '../../assets/logo.png'
 import TelephoneIcon from '../../assets/telephone-handle-silhouette.png'
 import LinkedInIcon from '../../assets/linkedin.png'
 import GitHubIcon from '../../assets/github.png'
+
 function Contacts(){
     return(
         <Container id="section3">

@@ -24,6 +24,9 @@ function LeftProject({ title, text, project_techlist, repository, deploy, wallpa
                         <ProjectTech>{project_techlist[0]}</ProjectTech>
                         <ProjectTech>{project_techlist[1]}</ProjectTech>
                         <ProjectTech>{project_techlist[2]}</ProjectTech>
+                        <ProjectTech>{project_techlist[3]}</ProjectTech>
+                        <ProjectTech>{project_techlist[4]}</ProjectTech>
+                        <ProjectTech>{project_techlist[5]}</ProjectTech>
                     </ProjectTechList>
                     <IconContainer>
                         <ProjectIcon href={repository} target="_blank">
