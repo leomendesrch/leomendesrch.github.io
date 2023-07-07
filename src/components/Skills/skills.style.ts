@@ -2,21 +2,27 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     height: auto;
-    width: 100%;
+    width: auto;
     background-color: #141414;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (max-width: 1010px) {
+        padding-left: 50px;
+        align-items: flex-start;
+    }
 `
 export const MaxWidthContainer = styled.div`
     height: 100%;
     max-width: 1200px;
-    width: 1200px;
     padding-top: 100px;
     background-color: #141414;
     display: flex;
     flex-direction: column;
+    @media (max-width: 1010px) {
+    padding-top: 50px;
+    }
 `
 
 export const SkillsContainer = styled.div`
@@ -24,6 +30,10 @@ export const SkillsContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+
+    @media (max-width: 1010px) {
+        margin-bottom: 50px;
+    }
 `
 
 export const SkillsTitle = styled.h3`
@@ -53,6 +63,12 @@ export const SkillsTitle = styled.h3`
 export const SkillNamesContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 `
 
 export const SkillNamesBlock = styled.div`
@@ -68,10 +84,14 @@ export const SkillNamesBlock = styled.div`
 
 export const SkillNames = styled.span`
     color: white;
-    font-size: 24px;
+    font-size: 25px;
     letter-spacing: 0.1rem;
     margin: 0;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 1010px) {
+    font-size: 15px;
+    }
 `
 

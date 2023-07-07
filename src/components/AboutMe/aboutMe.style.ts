@@ -8,6 +8,8 @@ interface IProps{
 export const Container = styled.div`
     height: calc(auto - 100px);
     width: auto;
+    margin: 0 auto;
+    max-width: 1200px;
     padding: 40px 20px;
     background-color: white;
     display: flex;
@@ -22,10 +24,19 @@ export const MyProfile = styled.div`
     column-gap: 40px;
     grid-template-columns: 1fr 2fr;
     align-items: center;
+
+    @media (max-width: 1010px){
+        gap: 30px; 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 `
 
 export const MyImage = styled.img`
-    height: 375px;
+    max-width: 350px;
+    min-width: 270px;
+    width: 100%;
     display: flex;
 `
 
@@ -47,9 +58,17 @@ export const MyProfileInfo = styled.div`
     background-repeat: no-repeat;
     display: inline-block;
     margin-bottom: -35px;
-    margin-right: -30px;
+    margin-right: -10px;
     right: 0;
     bottom: 0;
+    }
+
+    
+    @media (max-width: 1010px){
+
+        &::after{
+            display: none;
+        }
     }
 `
 
@@ -66,6 +85,7 @@ export const MyProfileTitle = styled.p`
         border-radius: 50%;
         background-color: #EDB106;
     }
+
 `
 
 export const MyProfileText = styled.div`
@@ -75,6 +95,10 @@ export const MyProfileText = styled.div`
     font-size: 20px;
     color: #404040;
     letter-spacing: 0.07rem;
+
+    @media (max-width: 1010px) {
+
+    }
 `
 
 export const MyProfileContactsContainer = styled.div`
@@ -83,6 +107,11 @@ export const MyProfileContactsContainer = styled.div`
     width: 100%;
     height: auto;
     gap: 30px;
+
+    @media (max-width: 1010px){
+        flex-direction: column;
+        align-items: center;
+    }
 `
 
 export const MyProfileContacts = styled.a<IProps>`
@@ -105,5 +134,13 @@ export const MyProfileContacts = styled.a<IProps>`
         color: white;
         background: ${(IProps) => IProps? `linear-gradient(${IProps.backgroundColorBottom }, ${IProps.backgroundColorTop} 40%)` : 'black'};
         box-shadow: 17px 17px 15px -20px black;
+    }
+
+    @media (max-width: 1010px){
+        width: 75%;
+        padding: 5px 9px;
+        font-size: 23px;
+        letter-spacing: 0rem;
+        justify-content:center;
     }
 `

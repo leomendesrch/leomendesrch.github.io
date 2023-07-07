@@ -2,12 +2,21 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     height: 35vh;
-    width: 100%;
+    width: auto;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 120px;
+    @media (max-width: 1010px) {
+    gap: 50px;
+    }
+
+    @media (max-width: 700px){
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
 `
 
 export const TextContainer = styled.div`
@@ -26,6 +35,10 @@ export const ContactsText = styled.p`
     color: white;
     letter-spacing: 0.1rem;
     margin: 0;
+
+    @media (max-width: 700px){
+    font-size: 17px
+    }
 `
 
 export const ContactsContainer = styled.div`
@@ -33,6 +46,7 @@ export const ContactsContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 `
 
 export const ContactsElement = styled.div`
@@ -50,6 +64,10 @@ export const ContactsName = styled.div`
     font-size: 16px;
     color: white;
     cursor: pointer;
+
+    @media (max-width: 700px){
+    font-size: 14px
+    }
 `
 
 export const Ancor = styled.a`

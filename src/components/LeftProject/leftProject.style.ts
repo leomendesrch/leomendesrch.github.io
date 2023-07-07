@@ -5,7 +5,6 @@ export const ProjectContainer = styled.li`
     display: flex;
     gap: 90px;
     background-color: white;
-
 `
 
 export const ProjectAncor = styled.a`

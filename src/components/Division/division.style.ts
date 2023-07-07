@@ -5,6 +5,7 @@ export const DivisionComponent = styled.div`
     height: 2px;
     background-color: #EDB106;
     width: 90%;
+    max-width: 1200px;
     display: flex;
-    margin-left: 46px;
+    margin: 0 auto;
 `

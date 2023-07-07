@@ -3,7 +3,7 @@ import { Container, MaxWidthContainer, SkillNames, SkillNamesBlock, SkillNamesCo
 function Skills(){
     return(
         <Container id="section2">
-            <MaxWidthContainer>
+             <MaxWidthContainer>
                 <SkillsContainer>
                     <SkillsTitle>Hard Skills</SkillsTitle>
                     <SkillNamesContainer>
@@ -63,7 +63,7 @@ function Skills(){
                         
                     </SkillNamesBlock>
                 </SkillsContainer>
-            </MaxWidthContainer>
+            </MaxWidthContainer> 
         </Container>
     )
 }

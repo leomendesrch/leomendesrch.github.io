@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    width: 100%;
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
     height: auto;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
+    padding: 40px 20px;  
 `
 
 export const Title = styled.p`
@@ -22,22 +22,42 @@ export const Title = styled.p`
         background-color: #EDB106;
         position: absolute;
     }
+
+    @media (max-width: 1010px) {
+        margin-bottom: 5px;
+    }
+`
+
+export const SubTitle = styled.span`
+    font-weight: bold;
+    
 `
 
 export const ProjectsContainer = styled.div`
-    display: block;
+    margin-top: 15px;
+    
+    @media (max-width: 1010px) {
+        display: flex;
+        overflow-x: auto;
+        width: 100%;
+        
+        ::-webkit-scrollbar {
+        height: 7px;
+        }
+    }   
 `
 
 export const ProjectsList = styled.ul`
     margin: 0;
     padding: 0;
     list-style: none;
-`
 
-export const ProjectContainer = styled.li`
-    height: auto;
-    display: flex;
-    background-color: white;
+    @media (max-width: 1010px) {
+        display: flex;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        gap: 30px;
+    }   
 `
 
 export const ProjectAncor = styled.a`

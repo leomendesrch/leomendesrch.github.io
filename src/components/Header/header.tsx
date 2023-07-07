@@ -1,4 +1,4 @@
-import { Ancora, Container, HeaderItems, HeaderItemsContainer, Name } from "./header.style"
+import { Ancora, Container, HeaderItemCenter, HeaderItems, HeaderItemsContainer, Name } from "./header.style"
 
 function Header(){
     return(
@@ -7,7 +7,7 @@ function Header(){
             <HeaderItemsContainer>
                 <HeaderItems><Ancora href="#section1">Projetos</Ancora></HeaderItems>
                 <HeaderItems><Ancora href="#section2">Habilidades</Ancora></HeaderItems>
-                <HeaderItems><Ancora href="#section3">Contatos</Ancora></HeaderItems>
+                <HeaderItemCenter><Ancora href="#section3">Contatos</Ancora></HeaderItemCenter>
             </HeaderItemsContainer>
         </Container>
     )
