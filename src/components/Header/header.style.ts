@@ -34,7 +34,7 @@ export const Name = styled.p`
     margin: 0;
     font-size: 40px;
     font-family: 'Wix Madefor Display', sans-serif;
-
+    display: flex;
     @media(max-width: 1010px){
         margin: 0;
         font-size: 50px;
@@ -42,6 +42,10 @@ export const Name = styled.p`
 
      @media(max-width: 468px){
         font-size: 38px;
+    }
+
+    @media(max-width: 400px){
+        font-size: 30px;
     }
 `
 

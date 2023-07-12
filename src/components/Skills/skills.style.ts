@@ -9,7 +9,7 @@ export const Container = styled.section`
     justify-content: center;
     align-items: center;
     @media (max-width: 1010px) {
-        padding-left: 50px;
+        padding-left: 35px;
         align-items: flex-start;
     }
 `

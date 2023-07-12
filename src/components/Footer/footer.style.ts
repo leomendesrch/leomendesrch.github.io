@@ -12,7 +12,7 @@ export const Container = styled.div`
     @media (max-width: 700px){
         justify-content: center;
         text-align: center;
-        height: 60px;
+        height: 80px;
     }
 `
 
@@ -24,6 +24,7 @@ export const FooterText = styled.p`
 
     @media (max-width: 700px){
         font-size: 14px;
+        padding: 0 20px;
     }
 `
 

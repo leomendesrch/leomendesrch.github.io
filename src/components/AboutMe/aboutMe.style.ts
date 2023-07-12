@@ -86,6 +86,9 @@ export const MyProfileTitle = styled.p`
         background-color: #EDB106;
     }
 
+    @media(max-width: 400px){
+        font-size: 30px;
+    }
 `
 
 export const MyProfileText = styled.div`

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    height: 35vh;
+    height: 350px;
     width: auto;
     background-color: black;
     display: flex;
@@ -15,7 +15,7 @@ export const Container = styled.section`
     @media (max-width: 700px){
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 50px;
+        padding-left: 35px;
     }
 `
 
