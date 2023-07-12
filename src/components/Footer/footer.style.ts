@@ -24,7 +24,7 @@ export const FooterText = styled.p`
 
     @media (max-width: 700px){
         font-size: 14px;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 `
 
