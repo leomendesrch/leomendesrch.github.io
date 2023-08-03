@@ -91,14 +91,15 @@ export const MyProfileTitle = styled.p`
     }
 `
 
-export const MyProfileText = styled.div`
+export const MyProfileText = styled.p`
     width: 100%;
     height: auto;
     display: flex;
     font-size: 20px;
+    font-weight: 400;
     color: #404040;
     letter-spacing: 0.07rem;
-
+    flex-direction: column;
     @media (max-width: 1010px) {
 
     }

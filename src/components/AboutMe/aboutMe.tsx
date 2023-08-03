@@ -22,7 +22,7 @@ function AboutMe(){
                             <>
                                 Olá, Sou um dev React 👋. Estou estudando constantemente em busca de novas oportunidades e projetos para aprimora minhas habilidades e
                                  colocar em prática todo o meu conhecimento, que com certeza vai agregar valor a empresas e sua equipe de programadores.<br />
-                                minha ambição é crescer e atuar na área!
+                                minha ambição é crescer e atuar na área!<strong>Curso Análise e Desenvolvimento de Sistemas pela PUC Minas.</strong>
                             </>
                         </MyProfileText>
                     </MyProfileInfo>
