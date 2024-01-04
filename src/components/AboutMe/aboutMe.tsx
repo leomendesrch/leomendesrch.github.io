@@ -17,10 +17,10 @@ function AboutMe(){
                 <MyProfile>
                     <MyImage src={UserIcon} className="myImage"/>
                     <MyProfileInfo >
-                        <MyProfileTitle className="myTitle">DESENVOLVEDOR<br></br>FRONT-END</MyProfileTitle>
+                        <MyProfileTitle className="myTitle">DESENVOLVEDOR<br></br>WEB</MyProfileTitle>
                         <MyProfileText className="myText">
                             <>
-                                Olá, Sou um dev React 👋. Estou estudando constantemente em busca de novas oportunidades e projetos para aprimora minhas habilidades e
+                                Olá, Sou um dev Javascript 👋. Estou estudando constantemente em busca de novas oportunidades e projetos para aprimora minhas habilidades e
                                  colocar em prática todo o meu conhecimento, que com certeza vai agregar valor a empresas e sua equipe de programadores.<br />
                                 minha ambição é crescer e atuar na área!<strong>Curso Análise e Desenvolvimento de Sistemas pela PUC Minas.</strong>
                             </>
@@ -28,7 +28,7 @@ function AboutMe(){
                     </MyProfileInfo>
                     <MyProfileContactsContainer className="myButtons">
                         <MyProfileContacts 
-                        href="https://docs.google.com/document/d/1LFC5KF0JwsGJesja3zdAWM7LMsaNFyQq0413yyCkEl4/edit?usp=sharing" 
+                        href="https://drive.google.com/file/d/1WJj77v1uumEPTkOPe2eWDnfWBeO9IEzo/view?usp=sharing" 
                         backgroundColorBottom='#fdaa2d' 
                         backgroundColorTop='#ff9900'
                         target="_blank"
