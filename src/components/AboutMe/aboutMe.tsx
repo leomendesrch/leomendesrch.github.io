@@ -28,7 +28,7 @@ function AboutMe(){
                     </MyProfileInfo>
                     <MyProfileContactsContainer className="myButtons">
                         <MyProfileContacts 
-                        href="https://drive.google.com/file/d/1WJj77v1uumEPTkOPe2eWDnfWBeO9IEzo/view?usp=sharing" 
+                        href="https://drive.google.com/file/d/1OsU1OQuX57XpDFW4GeFfXLpRcXDYx_3t/view?usp=sharing" 
                         backgroundColorBottom='#fdaa2d' 
                         backgroundColorTop='#ff9900'
                         target="_blank"
