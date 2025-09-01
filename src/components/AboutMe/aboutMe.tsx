@@ -17,18 +17,20 @@ function AboutMe(){
                 <MyProfile>
                     <MyImage src={UserIcon} className="myImage"/>
                     <MyProfileInfo >
-                        <MyProfileTitle className="myTitle">DESENVOLVEDOR<br></br>WEB</MyProfileTitle>
+                        <MyProfileTitle className="myTitle">DESENVOLVEDOR<br></br>FULL STACK</MyProfileTitle>
                         <MyProfileText className="myText">
                             <>
-                                Olá, Sou um dev Javascript 👋. Estou estudando constantemente em busca de novas oportunidades e projetos para aprimora minhas habilidades e
-                                 colocar em prática todo o meu conhecimento, que com certeza vai agregar valor a empresas e sua equipe de programadores.<br />
-                                minha ambição é crescer e atuar na área!<strong>Curso Análise e Desenvolvimento de Sistemas pela PUC Minas.</strong>
+                                Olá 👋 Sou um Desenvolvedor Full Stack com mais de 2 anos de experiência em todo o ciclo de vida de software. 
+                                Desde a analise de requisitos até o deploy e monitoramento. Nessa trajetoria atuei em sistemas de logística, gestão e plataformas web, 
+                                entregando soluções que melhoram a experiência do usuário, performance e confiabilidade dos sistemas.
+                                <br />
+                                <strong>Curso Análise e Desenvolvimento de Sistemas pela PUC Minas.</strong>
                             </>
                         </MyProfileText>
                     </MyProfileInfo>
                     <MyProfileContactsContainer className="myButtons">
                         <MyProfileContacts 
-                        href="https://drive.google.com/file/d/1OsU1OQuX57XpDFW4GeFfXLpRcXDYx_3t/view?usp=sharing" 
+                        href="https://drive.google.com/file/d/1OECj5J8bfOM25oFoEJvMRi1zwUuvfyLy/view" 
                         backgroundColorBottom='#fdaa2d' 
                         backgroundColorTop='#ff9900'
                         target="_blank"
